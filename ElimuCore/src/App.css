@@ -1,0 +1,16 @@
+/* src/App.css */
+.app {
+  min-height: 100vh;
+  background-color: #f5f7fb;
+}
+
+.main-layout {
+  display: flex;
+  padding-top: 70px;
+}
+
+.content-area {
+  padding: 1.5rem;
+  min-height: calc(100vh - 70px);
+  flex: 1;
+}

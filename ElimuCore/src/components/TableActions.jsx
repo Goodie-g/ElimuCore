@@ -1,15 +1,11 @@
-import { FaEdit, FaTrash } from 'react-icons/fa';
+import React from 'react'
+import { FiEdit, FiTrash2 } from 'react-icons/fi'
 
 export default function TableActions() {
   return (
-    <div className="actions">
-      <button className="icon-btn edit">
-        <FaEdit />
-      </button>
-
-      <button className="icon-btn delete">
-        <FaTrash />
-      </button>
+    <div className="table-actions">
+      <button className="btn secondary"><FiEdit style={{ marginRight: 6 }} />Edit</button>
+      <button className="btn danger"><FiTrash2 style={{ marginRight: 6 }} />Delete</button>
     </div>
-  );
+  )
 }

@@ -1,0 +1,8 @@
+/* Table refinements */
+table { font-family: inherit; font-size: 14px; }
+thead th { background: #faf7ff; color: #333; }
+tbody td { vertical-align: middle; }
+.table-actions { display:flex; gap:8px; }
+.table-wrapper { border-radius: 8px; overflow: hidden; }
+.students-table, .teachers-table { width:100%; }
+.students-table tr:hover, .teachers-table tr:hover { background: rgba(170,59,255,0.03); }
