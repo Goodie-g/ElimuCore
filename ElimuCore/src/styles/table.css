@@ -1,8 +1,56 @@
-/* Table refinements */
-table { font-family: inherit; font-size: 14px; }
-thead th { background: #faf7ff; color: #333; }
-tbody td { vertical-align: middle; }
-.table-actions { display:flex; gap:8px; }
-.table-wrapper { border-radius: 8px; overflow: hidden; }
-.students-table, .teachers-table { width:100%; }
-.students-table tr:hover, .teachers-table tr:hover { background: rgba(170,59,255,0.03); }
+.table-container {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.table-top {
+  border-bottom: 1px solid var(--line);
+  padding: 16px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%;
+}
+
+thead {
+  background: #edf7f5;
+}
+
+th {
+  color: #345057;
+  font-size: 12px;
+  letter-spacing: 0;
+  padding: 13px 16px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+td {
+  border-top: 1px solid #edf2f1;
+  color: #223138;
+  padding: 13px 16px;
+  vertical-align: middle;
+}
+
+tbody tr {
+  background: #ffffff;
+}
+
+tbody tr:hover {
+  background: #f7fbfa;
+}
+
+.table-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

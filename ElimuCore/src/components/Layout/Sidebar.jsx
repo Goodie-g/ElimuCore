@@ -1,4 +1,3 @@
-import React from 'react'
 import { FiHome, FiUsers, FiBookOpen, FiBarChart2 } from 'react-icons/fi'
 
 export default function Sidebar({ activeTab, setActiveTab, isOpen, setSidebarOpen }) {
@@ -15,11 +14,14 @@ export default function Sidebar({ activeTab, setActiveTab, isOpen, setSidebarOpe
 	}
 
 	return (
-		<div className={`sidebar ${isOpen ? 'mobile-open' : ''}`} aria-hidden={isOpen ? 'false' : 'true'}>
+		<div className={`sidebar ${isOpen ? 'mobile-open' : ''}`}>
 			<ul>
 				{items.map((it) => (
 					<li key={it.id} className={activeTab === it.id ? 'active' : ''} onClick={() => handleClick(it.id)}>
-						<it.Icon style={{ marginRight: 10, verticalAlign: 'middle' }} />{it.label}
+						<span className={`sidebar-icon${it.id === 'dashboard' ? ' sidebar-icon--dashboard' : ''}`}>
+							<it.Icon size={20} aria-hidden="true" />
+						</span>
+						{it.label}
 					</li>
 				))}
 			</ul>

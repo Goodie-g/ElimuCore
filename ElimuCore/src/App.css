@@ -1,16 +1,35 @@
-/* src/App.css */
 .app {
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 142, 0.14), transparent 32rem),
+    linear-gradient(135deg, #f6faf9 0%, #eef3f4 44%, #f8f3e8 100%);
   min-height: 100vh;
-  background-color: #f5f7fb;
 }
 
 .main-layout {
   display: flex;
-  padding-top: 70px;
+  padding-top: 72px;
 }
 
 .content-area {
-  padding: 1.5rem;
-  min-height: calc(100vh - 70px);
   flex: 1;
+  min-height: calc(100vh - 72px);
+  padding: 28px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.backdrop {
+  background: rgba(18, 31, 35, 0.48);
+  inset: 0;
+  position: fixed;
+  z-index: 70;
+}
+
+@media (max-width: 768px) {
+  .content-area {
+    padding: 18px;
+  }
 }

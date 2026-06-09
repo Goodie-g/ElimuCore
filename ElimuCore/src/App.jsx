@@ -1,6 +1,9 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Navbar from './components/Layout/Navbar'
 import Sidebar from './components/Layout/Sidebar'
+import Modal from './components/UI/Modal'
+import StudentForm from './components/Forms/StudentForm'
+import TeacherForm from './components/Forms/TeacherForm'
 import Dashboard from './pages/Dashboard'
 import Teachers from './pages/Teachers'
 import Students from './pages/Students'
@@ -22,7 +25,7 @@ function App() {
       case 'students':
         return <Students schoolData={schoolData} />
       case 'grades':
-        return <Grades />
+        return <Grades schoolData={schoolData} />
       default:
         return <Dashboard schoolData={schoolData} />
     }
@@ -35,6 +38,10 @@ function App() {
         onMenuClick={() => setSidebarOpen((s) => !s)}
         onAddStudent={schoolData.openAddStudent}
         onAddTeacher={schoolData.openAddTeacher}
+        onGoHome={() => {
+          setActiveTab('dashboard')
+          setSidebarOpen(false)
+        }}
       />
       
       <div className="main-layout">
@@ -48,7 +55,21 @@ function App() {
         </main>
       </div>
 
-      
+      <Modal isOpen={schoolData.studentModalOpen} onClose={schoolData.closeAddStudent}>
+        <h3 className="modal-title">Add Student</h3>
+        <StudentForm
+          onSubmit={schoolData.addStudent}
+          onCancel={schoolData.closeAddStudent}
+        />
+      </Modal>
+
+      <Modal isOpen={schoolData.teacherModalOpen} onClose={schoolData.closeAddTeacher}>
+        <h3 className="modal-title">Add Teacher</h3>
+        <TeacherForm
+          onSubmit={schoolData.addTeacher}
+          onCancel={schoolData.closeAddTeacher}
+        />
+      </Modal>
     </div>
   )
 }

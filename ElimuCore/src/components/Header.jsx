@@ -1,13 +1,10 @@
-import React from 'react'
-
-export default function Header({ title, showButtons }) {
+export default function Header({ title, subtitle }) {
   return (
     <header className="app-header">
-      <h2>{title}</h2>
-      {showButtons && (
-        <div className="header-actions">
-        </div>
-      )}
+      <div>
+        <h2>{title}</h2>
+        {subtitle && <p>{subtitle}</p>}
+      </div>
     </header>
   )
 }
