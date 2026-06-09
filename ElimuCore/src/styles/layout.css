@@ -21,6 +21,7 @@
 .sidebar { padding-top: 84px; }
 
 @media (max-width: 768px) {
+  .navbar .menu-btn { display: block; }
   .sidebar { 
     position: fixed;
     left: 0;
