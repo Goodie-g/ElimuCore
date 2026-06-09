@@ -15,7 +15,7 @@ export default function Sidebar({ activeTab, setActiveTab, isOpen, setSidebarOpe
 	}
 
 	return (
-		<aside className={`sidebar ${isOpen ? 'mobile-open' : ''}`} aria-hidden={isOpen ? 'false' : 'true'}>
+		<div className={`sidebar ${isOpen ? 'mobile-open' : ''}`} aria-hidden={isOpen ? 'false' : 'true'}>
 			<ul>
 				{items.map((it) => (
 					<li key={it.id} className={activeTab === it.id ? 'active' : ''} onClick={() => handleClick(it.id)}>
@@ -23,6 +23,6 @@ export default function Sidebar({ activeTab, setActiveTab, isOpen, setSidebarOpe
 					</li>
 				))}
 			</ul>
-		</aside>
+		</div>
 	)
 }

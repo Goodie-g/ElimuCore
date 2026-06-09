@@ -39,9 +39,7 @@ function App() {
       
       <div className="main-layout">
         <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} isOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-        {sidebarOpen && (
-          <div className="backdrop" onClick={() => setSidebarOpen(false)} />
-        )}
+        {sidebarOpen && <div className="backdrop" onClick={() => setSidebarOpen(false)} />}
         
         <main className="content-area">
           <div className="container">
