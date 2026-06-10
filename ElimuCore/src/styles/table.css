@@ -11,6 +11,23 @@
   padding: 16px;
 }
 
+.people-toolbar {
+  align-items: center;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(220px, 1fr) minmax(150px, 200px);
+}
+
+.people-toolbar select {
+  background: #ffffff;
+  border: 1px solid #d9e4e2;
+  border-radius: 8px;
+  color: var(--text);
+  min-height: 42px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
 .table-wrapper {
   overflow-x: auto;
 }
@@ -53,4 +70,10 @@ tbody tr:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+@media (max-width: 640px) {
+  .people-toolbar {
+    grid-template-columns: 1fr;
+  }
 }

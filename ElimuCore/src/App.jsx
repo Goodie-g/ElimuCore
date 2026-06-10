@@ -56,17 +56,21 @@ function App() {
       </div>
 
       <Modal isOpen={schoolData.studentModalOpen} onClose={schoolData.closeAddStudent}>
-        <h3 className="modal-title">Add Student</h3>
+        <h3 className="modal-title">{schoolData.editingStudent ? 'Edit Student' : 'Add Student'}</h3>
         <StudentForm
-          onSubmit={schoolData.addStudent}
+          initialValues={schoolData.editingStudent}
+          isEditing={Boolean(schoolData.editingStudent)}
+          onSubmit={schoolData.saveStudent}
           onCancel={schoolData.closeAddStudent}
         />
       </Modal>
 
       <Modal isOpen={schoolData.teacherModalOpen} onClose={schoolData.closeAddTeacher}>
-        <h3 className="modal-title">Add Teacher</h3>
+        <h3 className="modal-title">{schoolData.editingTeacher ? 'Edit Teacher' : 'Add Teacher'}</h3>
         <TeacherForm
-          onSubmit={schoolData.addTeacher}
+          initialValues={schoolData.editingTeacher}
+          isEditing={Boolean(schoolData.editingTeacher)}
+          onSubmit={schoolData.saveTeacher}
           onCancel={schoolData.closeAddTeacher}
         />
       </Modal>
