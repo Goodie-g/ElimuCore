@@ -79,6 +79,22 @@ export function useSchoolData() {
 		return { ok: true }
 	}
 
+	const updateStudentAttendance = (attendanceUpdates) => {
+		setStudents((prev) => {
+			const nextStudents = prev.map((student) => {
+				if (!Object.prototype.hasOwnProperty.call(attendanceUpdates, student.id)) return student
+
+				return {
+					...student,
+					attendance: attendanceUpdates[student.id],
+				}
+			})
+
+			saveStoredList(STUDENTS_STORAGE_KEY, nextStudents)
+			return nextStudents
+		})
+	}
+
 	const closeAddStudent = () => {
 		setEditingStudent(null)
 		setStudentModalOpen(false)
@@ -116,6 +132,7 @@ export function useSchoolData() {
 		closeAddTeacher,
 		saveStudent,
 		saveTeacher,
+		updateStudentAttendance,
 		deleteStudent: (id) => {
 			if (!canDelete('Delete this student?')) return
 			setStudents((prev) => {

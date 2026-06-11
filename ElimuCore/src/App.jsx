@@ -8,6 +8,7 @@ import Dashboard from './pages/Dashboard'
 import Teachers from './pages/Teachers'
 import Students from './pages/Students'
 import Grades from './pages/Grades'
+import Attendance from './pages/Attendance'
 import { useSchoolData } from './hooks/useSchoolData'
 import './App.css'
 
@@ -19,13 +20,15 @@ function App() {
   const renderPage = () => {
     switch (activeTab) {
       case 'dashboard':
-        return <Dashboard schoolData={schoolData} />
+        return <Dashboard schoolData={schoolData} onNavigate={setActiveTab} />
       case 'teachers':
         return <Teachers schoolData={schoolData} />
       case 'students':
         return <Students schoolData={schoolData} />
       case 'grades':
         return <Grades schoolData={schoolData} />
+      case 'attendance':
+        return <Attendance schoolData={schoolData} />
       default:
         return <Dashboard schoolData={schoolData} />
     }

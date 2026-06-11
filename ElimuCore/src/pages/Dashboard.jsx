@@ -11,7 +11,7 @@ function averageOf(students, field) {
   return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
-export default function Dashboard({ schoolData }) {
+export default function Dashboard({ schoolData, onNavigate }) {
   const students = schoolData?.students ?? [];
   const teachers = schoolData?.teachers ?? [];
   const averageAttendance = averageOf(students, 'attendance');
@@ -46,6 +46,7 @@ export default function Dashboard({ schoolData }) {
           note="Across all students"
           title="Attendance"
           value={`${averageAttendance.toFixed(1)}%`}
+          onClick={() => onNavigate('attendance')}
         />
         <StatsCard
           icon={<FiAward />}

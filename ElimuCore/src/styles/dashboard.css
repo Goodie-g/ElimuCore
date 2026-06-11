@@ -19,6 +19,19 @@
   gap: 14px;
   min-height: 112px;
   padding: 18px;
+  text-align: left;
+  width: 100%;
+}
+
+.stats-card--clickable {
+  cursor: pointer;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.stats-card--clickable:hover {
+  border-color: #0f766e;
+  box-shadow: 0 16px 34px rgba(15, 118, 110, 0.12);
+  transform: translateY(-2px);
 }
 
 .stats-card-icon {

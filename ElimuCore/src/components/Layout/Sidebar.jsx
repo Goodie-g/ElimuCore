@@ -1,10 +1,11 @@
-import { FiHome, FiUsers, FiBookOpen, FiBarChart2 } from 'react-icons/fi'
+import { FiBarChart2, FiCalendar, FiHome, FiUsers, FiBookOpen } from 'react-icons/fi'
 
 export default function Sidebar({ activeTab, setActiveTab, isOpen, setSidebarOpen }) {
 	const items = [
 		{ id: 'dashboard', label: 'Dashboard', Icon: FiHome },
 		{ id: 'teachers', label: 'Teachers', Icon: FiUsers },
 		{ id: 'students', label: 'Students', Icon: FiBookOpen },
+		{ id: 'attendance', label: 'Attendance', Icon: FiCalendar },
 		{ id: 'grades', label: 'Grades', Icon: FiBarChart2 },
 	]
 
