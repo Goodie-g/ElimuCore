@@ -1,0 +1,5642 @@
+[
+  {
+    "id": 1001,
+    "name": "Asha Lema",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 93,
+    "subjects": {
+      "Mathematics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "English": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 46,
+        "grade": "D"
+      },
+      "History": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 73,
+        "grade": "B"
+      }
+    },
+    "average": 58.2,
+    "division": "III"
+  },
+  {
+    "id": 1002,
+    "name": "Grace Malisa",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 96,
+    "subjects": {
+      "Mathematics": {
+        "score": 55,
+        "grade": "C"
+      },
+      "English": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 36,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "History": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 45,
+        "grade": "D"
+      }
+    },
+    "average": 55.1,
+    "division": "III"
+  },
+  {
+    "id": 1003,
+    "name": "Grace Mrema",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 86,
+    "subjects": {
+      "Mathematics": {
+        "score": 63,
+        "grade": "B"
+      },
+      "English": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 33,
+        "grade": "F"
+      },
+      "Biology": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 56,
+        "grade": "C"
+      }
+    },
+    "average": 60.4,
+    "division": "III"
+  },
+  {
+    "id": 1004,
+    "name": "Franklin Edward",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 94,
+    "subjects": {
+      "Mathematics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "English": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 36,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 44,
+        "grade": "D"
+      },
+      "History": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 42,
+        "grade": "D"
+      }
+    },
+    "average": 52.7,
+    "division": "III"
+  },
+  {
+    "id": 1005,
+    "name": "Ibrahim Juma",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 100,
+    "subjects": {
+      "Mathematics": {
+        "score": 48,
+        "grade": "D"
+      },
+      "English": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 50,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 43,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 78,
+        "grade": "A"
+      },
+      "History": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 60,
+        "grade": "B"
+      }
+    },
+    "average": 54.7,
+    "division": "III"
+  },
+  {
+    "id": 1006,
+    "name": "Anitha Peter",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 97,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 35,
+        "grade": "F"
+      },
+      "Chemistry": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 61,
+        "grade": "B"
+      },
+      "History": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 64,
+        "grade": "B"
+      }
+    },
+    "average": 58.4,
+    "division": "III"
+  },
+  {
+    "id": 1007,
+    "name": "Ibrahim Juma",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "English": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 36,
+        "grade": "F"
+      },
+      "Biology": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "History": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 66,
+        "grade": "B"
+      }
+    },
+    "average": 60.4,
+    "division": "III"
+  },
+  {
+    "id": 1008,
+    "name": "Joyce Karim",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 88,
+    "subjects": {
+      "Mathematics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "English": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "History": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 50,
+        "grade": "C"
+      }
+    },
+    "average": 57.6,
+    "division": "III"
+  },
+  {
+    "id": 1009,
+    "name": "John Suleiman",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 96,
+    "subjects": {
+      "Mathematics": {
+        "score": 73,
+        "grade": "B"
+      },
+      "English": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 70,
+        "grade": "B"
+      },
+      "History": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 67,
+        "grade": "B"
+      }
+    },
+    "average": 64.6,
+    "division": "III"
+  },
+  {
+    "id": 1010,
+    "name": "Juma Mgaya",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 80,
+    "subjects": {
+      "Mathematics": {
+        "score": 72,
+        "grade": "B"
+      },
+      "English": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 32,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "History": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 86,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 63,
+        "grade": "B"
+      }
+    },
+    "average": 60.1,
+    "division": "III"
+  },
+  {
+    "id": 1011,
+    "name": "Rehema Simon",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 95,
+    "subjects": {
+      "Mathematics": {
+        "score": 41,
+        "grade": "D"
+      },
+      "English": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 42,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 55,
+        "grade": "C"
+      },
+      "History": {
+        "score": 93,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 55,
+        "grade": "C"
+      }
+    },
+    "average": 56.0,
+    "division": "III"
+  },
+  {
+    "id": 1012,
+    "name": "Amani Juma",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 38,
+        "grade": "F"
+      },
+      "English": {
+        "score": 36,
+        "grade": "F"
+      },
+      "Kiswahili": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "History": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 61,
+        "grade": "B"
+      }
+    },
+    "average": 53.0,
+    "division": "III"
+  },
+  {
+    "id": 1013,
+    "name": "Amina Mgaya",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 55,
+        "grade": "C"
+      },
+      "English": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 56,
+        "grade": "C"
+      },
+      "History": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 48,
+        "grade": "D"
+      }
+    },
+    "average": 58.1,
+    "division": "III"
+  },
+  {
+    "id": 1014,
+    "name": "Rose Michael",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 47,
+        "grade": "D"
+      },
+      "History": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 72,
+        "grade": "B"
+      }
+    },
+    "average": 58.8,
+    "division": "III"
+  },
+  {
+    "id": 1015,
+    "name": "Gift Mushi",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 92,
+    "subjects": {
+      "Mathematics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "English": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 40,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 41,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 63,
+        "grade": "B"
+      },
+      "History": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 40,
+        "grade": "D"
+      }
+    },
+    "average": 58.8,
+    "division": "III"
+  },
+  {
+    "id": 1016,
+    "name": "Patrick Mwakalinga",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 84,
+    "subjects": {
+      "Mathematics": {
+        "score": 49,
+        "grade": "D"
+      },
+      "English": {
+        "score": 83,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 43,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 42,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 87,
+        "grade": "A"
+      },
+      "History": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 66,
+        "grade": "B"
+      }
+    },
+    "average": 61.1,
+    "division": "III"
+  },
+  {
+    "id": 1017,
+    "name": "Robert Mwita",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 87,
+    "subjects": {
+      "Mathematics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "English": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 41,
+        "grade": "D"
+      },
+      "History": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 71,
+        "grade": "B"
+      }
+    },
+    "average": 57.3,
+    "division": "III"
+  },
+  {
+    "id": 1018,
+    "name": "Gift Omari",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 60,
+        "grade": "B"
+      },
+      "English": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 76,
+        "grade": "A"
+      },
+      "History": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 53,
+        "grade": "C"
+      }
+    },
+    "average": 61.2,
+    "division": "III"
+  },
+  {
+    "id": 1019,
+    "name": "Beatrice Nyerere",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 95,
+    "subjects": {
+      "Mathematics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "English": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 53,
+        "grade": "C"
+      },
+      "History": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 73,
+        "grade": "B"
+      }
+    },
+    "average": 64.1,
+    "division": "III"
+  },
+  {
+    "id": 1020,
+    "name": "Grace Mollel",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 96,
+    "subjects": {
+      "Mathematics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "English": {
+        "score": 85,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 39,
+        "grade": "F"
+      },
+      "History": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 77,
+        "grade": "A"
+      }
+    },
+    "average": 63.0,
+    "division": "III"
+  },
+  {
+    "id": 1021,
+    "name": "Sophia Mwakyusa",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 95,
+        "grade": "A"
+      },
+      "English": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 41,
+        "grade": "D"
+      },
+      "History": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 49,
+        "grade": "D"
+      }
+    },
+    "average": 66.6,
+    "division": "II"
+  },
+  {
+    "id": 1022,
+    "name": "Yusuph Charles",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 87,
+    "subjects": {
+      "Mathematics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "English": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 56,
+        "grade": "C"
+      },
+      "History": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 35,
+        "grade": "F"
+      }
+    },
+    "average": 52.8,
+    "division": "III"
+  },
+  {
+    "id": 1023,
+    "name": "Yusuph Jongo",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 40,
+        "grade": "D"
+      },
+      "English": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "History": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 48,
+        "grade": "D"
+      }
+    },
+    "average": 55.9,
+    "division": "III"
+  },
+  {
+    "id": 1024,
+    "name": "Esther Joseph",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 59,
+        "grade": "C"
+      },
+      "English": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 86,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "History": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 55,
+        "grade": "C"
+      }
+    },
+    "average": 66.6,
+    "division": "II"
+  },
+  {
+    "id": 1025,
+    "name": "Moses Juma",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 100,
+    "subjects": {
+      "Mathematics": {
+        "score": 45,
+        "grade": "D"
+      },
+      "English": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 45,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 47,
+        "grade": "D"
+      },
+      "History": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 79,
+        "grade": "A"
+      }
+    },
+    "average": 58.6,
+    "division": "III"
+  },
+  {
+    "id": 1026,
+    "name": "Beatrice Malisa",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 81,
+    "subjects": {
+      "Mathematics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "English": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 47,
+        "grade": "D"
+      },
+      "History": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 73,
+        "grade": "B"
+      }
+    },
+    "average": 62.2,
+    "division": "III"
+  },
+  {
+    "id": 1027,
+    "name": "Emmanuel Jongo",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "History": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 87,
+        "grade": "A"
+      }
+    },
+    "average": 62.9,
+    "division": "III"
+  },
+  {
+    "id": 1028,
+    "name": "Rehema Joseph",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 93,
+    "subjects": {
+      "Mathematics": {
+        "score": 60,
+        "grade": "B"
+      },
+      "English": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "History": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 81,
+        "grade": "A"
+      }
+    },
+    "average": 64.3,
+    "division": "III"
+  },
+  {
+    "id": 1029,
+    "name": "Brian Komba",
+    "gender": "Male",
+    "class": "Form 1",
+    "attendance": 92,
+    "subjects": {
+      "Mathematics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "English": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 78,
+        "grade": "A"
+      },
+      "History": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 43,
+        "grade": "D"
+      }
+    },
+    "average": 58.2,
+    "division": "III"
+  },
+  {
+    "id": 1030,
+    "name": "Elisha Mwakyusa",
+    "gender": "Female",
+    "class": "Form 1",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 81,
+        "grade": "A"
+      },
+      "English": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 37,
+        "grade": "F"
+      },
+      "Biology": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 33,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 70,
+        "grade": "B"
+      },
+      "History": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 63,
+        "grade": "B"
+      }
+    },
+    "average": 56.1,
+    "division": "III"
+  },
+  {
+    "id": 1031,
+    "name": "Ibrahim Mrema",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 95,
+    "subjects": {
+      "Mathematics": {
+        "score": 51,
+        "grade": "C"
+      },
+      "English": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "History": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 51,
+        "grade": "C"
+      }
+    },
+    "average": 58.0,
+    "division": "III"
+  },
+  {
+    "id": 1032,
+    "name": "Franklin Michael",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 88,
+    "subjects": {
+      "Mathematics": {
+        "score": 83,
+        "grade": "A"
+      },
+      "English": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 45,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "History": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 55,
+        "grade": "C"
+      }
+    },
+    "average": 64.2,
+    "division": "III"
+  },
+  {
+    "id": 1033,
+    "name": "Gift Mwita",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 92,
+    "subjects": {
+      "Mathematics": {
+        "score": 59,
+        "grade": "C"
+      },
+      "English": {
+        "score": 43,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 68,
+        "grade": "B"
+      },
+      "History": {
+        "score": 42,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 33,
+        "grade": "F"
+      }
+    },
+    "average": 54.6,
+    "division": "III"
+  },
+  {
+    "id": 1034,
+    "name": "Gift Lucas",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 51,
+        "grade": "C"
+      },
+      "English": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 76,
+        "grade": "A"
+      },
+      "History": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 37,
+        "grade": "F"
+      }
+    },
+    "average": 60.7,
+    "division": "III"
+  },
+  {
+    "id": 1035,
+    "name": "Victor Juma",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 97,
+    "subjects": {
+      "Mathematics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "English": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 61,
+        "grade": "B"
+      },
+      "History": {
+        "score": 45,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 47,
+        "grade": "D"
+      }
+    },
+    "average": 59.9,
+    "division": "III"
+  },
+  {
+    "id": 1036,
+    "name": "John Mwita",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 81,
+    "subjects": {
+      "Mathematics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "English": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "History": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 74,
+        "grade": "B"
+      }
+    },
+    "average": 63.4,
+    "division": "III"
+  },
+  {
+    "id": 1037,
+    "name": "Lucy Mashauri",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 87,
+    "subjects": {
+      "Mathematics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "English": {
+        "score": 40,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "History": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 74,
+        "grade": "B"
+      }
+    },
+    "average": 60.2,
+    "division": "III"
+  },
+  {
+    "id": 1038,
+    "name": "Rehema Juma",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 100,
+    "subjects": {
+      "Mathematics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "English": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "History": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 48,
+        "grade": "D"
+      }
+    },
+    "average": 57.7,
+    "division": "III"
+  },
+  {
+    "id": 1039,
+    "name": "Rehema Edward",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 56,
+        "grade": "C"
+      },
+      "English": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 53,
+        "grade": "C"
+      },
+      "History": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 64,
+        "grade": "B"
+      }
+    },
+    "average": 61.4,
+    "division": "III"
+  },
+  {
+    "id": 1040,
+    "name": "Rehema Lucas",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 53,
+        "grade": "C"
+      },
+      "English": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 42,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 62,
+        "grade": "B"
+      },
+      "History": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 50,
+        "grade": "C"
+      }
+    },
+    "average": 60.6,
+    "division": "III"
+  },
+  {
+    "id": 1041,
+    "name": "David Peter",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 92,
+    "subjects": {
+      "Mathematics": {
+        "score": 53,
+        "grade": "C"
+      },
+      "English": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 70,
+        "grade": "B"
+      },
+      "History": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 67,
+        "grade": "B"
+      }
+    },
+    "average": 61.2,
+    "division": "III"
+  },
+  {
+    "id": 1042,
+    "name": "Fatma Hassan",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 79,
+        "grade": "A"
+      },
+      "English": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 86,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 89,
+        "grade": "A"
+      },
+      "History": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 73,
+        "grade": "B"
+      }
+    },
+    "average": 72.6,
+    "division": "II"
+  },
+  {
+    "id": 1043,
+    "name": "Robert Msuya",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "English": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 38,
+        "grade": "F"
+      },
+      "History": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 70,
+        "grade": "B"
+      }
+    },
+    "average": 64.4,
+    "division": "III"
+  },
+  {
+    "id": 1044,
+    "name": "Joyce Msuya",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 88,
+    "subjects": {
+      "Mathematics": {
+        "score": 46,
+        "grade": "D"
+      },
+      "English": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 59,
+        "grade": "C"
+      },
+      "History": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 77,
+        "grade": "A"
+      }
+    },
+    "average": 62.0,
+    "division": "III"
+  },
+  {
+    "id": 1045,
+    "name": "Juma Charles",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 51,
+        "grade": "C"
+      },
+      "English": {
+        "score": 85,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 28,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 37,
+        "grade": "F"
+      },
+      "Civics": {
+        "score": 64,
+        "grade": "B"
+      }
+    },
+    "average": 59.0,
+    "division": "III"
+  },
+  {
+    "id": 1046,
+    "name": "Fatma Joseph",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 96,
+    "subjects": {
+      "Mathematics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "English": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 50,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 63,
+        "grade": "B"
+      },
+      "History": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 67,
+        "grade": "B"
+      }
+    },
+    "average": 60.7,
+    "division": "III"
+  },
+  {
+    "id": 1047,
+    "name": "Franklin Malisa",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 86,
+    "subjects": {
+      "Mathematics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "English": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 34,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 62,
+        "grade": "B"
+      },
+      "History": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 58,
+        "grade": "C"
+      }
+    },
+    "average": 58.7,
+    "division": "III"
+  },
+  {
+    "id": 1048,
+    "name": "Fatma Hassan",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 75,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 61,
+        "grade": "B"
+      },
+      "History": {
+        "score": 50,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 35,
+        "grade": "F"
+      }
+    },
+    "average": 59.9,
+    "division": "III"
+  },
+  {
+    "id": 1049,
+    "name": "Amina Mrema",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 100,
+    "subjects": {
+      "Mathematics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "English": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 49,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 37,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 42,
+        "grade": "D"
+      },
+      "History": {
+        "score": 40,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 63,
+        "grade": "B"
+      }
+    },
+    "average": 57.4,
+    "division": "III"
+  },
+  {
+    "id": 1050,
+    "name": "Baraka Said",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "English": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 81,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "History": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 62,
+        "grade": "B"
+      }
+    },
+    "average": 63.9,
+    "division": "III"
+  },
+  {
+    "id": 1051,
+    "name": "Prisca Hassan",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 88,
+    "subjects": {
+      "Mathematics": {
+        "score": 36,
+        "grade": "F"
+      },
+      "English": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 62,
+        "grade": "B"
+      },
+      "History": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 87,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 56,
+        "grade": "C"
+      }
+    },
+    "average": 63.8,
+    "division": "III"
+  },
+  {
+    "id": 1052,
+    "name": "Ibrahim Joseph",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 99,
+    "subjects": {
+      "Mathematics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "English": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "History": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 49,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 77,
+        "grade": "A"
+      }
+    },
+    "average": 65.8,
+    "division": "II"
+  },
+  {
+    "id": 1053,
+    "name": "Elisha Juma",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 98,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 32,
+        "grade": "F"
+      },
+      "Biology": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 37,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "History": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 56,
+        "grade": "C"
+      }
+    },
+    "average": 54.4,
+    "division": "III"
+  },
+  {
+    "id": 1054,
+    "name": "Patrick Msuya",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 93,
+    "subjects": {
+      "Mathematics": {
+        "score": 47,
+        "grade": "D"
+      },
+      "English": {
+        "score": 44,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 36,
+        "grade": "F"
+      },
+      "History": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 53,
+        "grade": "C"
+      }
+    },
+    "average": 57.6,
+    "division": "III"
+  },
+  {
+    "id": 1055,
+    "name": "Yusuph Omari",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 94,
+    "subjects": {
+      "Mathematics": {
+        "score": 70,
+        "grade": "B"
+      },
+      "English": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 39,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "History": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 50,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 53,
+        "grade": "C"
+      }
+    },
+    "average": 54.7,
+    "division": "III"
+  },
+  {
+    "id": 1056,
+    "name": "Neema Mushi",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 93,
+    "subjects": {
+      "Mathematics": {
+        "score": 88,
+        "grade": "A"
+      },
+      "English": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 45,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "History": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 54,
+        "grade": "C"
+      }
+    },
+    "average": 65.3,
+    "division": "II"
+  },
+  {
+    "id": 1057,
+    "name": "Salma Mgaya",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 100,
+    "subjects": {
+      "Mathematics": {
+        "score": 63,
+        "grade": "B"
+      },
+      "English": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 83,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "History": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 75,
+        "grade": "A"
+      }
+    },
+    "average": 69.0,
+    "division": "II"
+  },
+  {
+    "id": 1058,
+    "name": "Mariam Karim",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 98,
+    "subjects": {
+      "Mathematics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "English": {
+        "score": 32,
+        "grade": "F"
+      },
+      "Kiswahili": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 76,
+        "grade": "A"
+      },
+      "History": {
+        "score": 33,
+        "grade": "F"
+      },
+      "Geography": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 63,
+        "grade": "B"
+      }
+    },
+    "average": 55.4,
+    "division": "III"
+  },
+  {
+    "id": 1059,
+    "name": "Fatma Mollel",
+    "gender": "Female",
+    "class": "Form 2",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "English": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 73,
+        "grade": "B"
+      },
+      "History": {
+        "score": 85,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 38,
+        "grade": "F"
+      },
+      "Civics": {
+        "score": 45,
+        "grade": "D"
+      }
+    },
+    "average": 63.3,
+    "division": "III"
+  },
+  {
+    "id": 1060,
+    "name": "Amani Hassan",
+    "gender": "Male",
+    "class": "Form 2",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "English": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 87,
+        "grade": "A"
+      }
+    },
+    "average": 66.2,
+    "division": "II"
+  },
+  {
+    "id": 1061,
+    "name": "Anitha Charles",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 94,
+    "subjects": {
+      "Mathematics": {
+        "score": 68,
+        "grade": "B"
+      },
+      "English": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 41,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 73,
+        "grade": "B"
+      },
+      "History": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 61,
+        "grade": "B"
+      }
+    },
+    "average": 64.0,
+    "division": "III"
+  },
+  {
+    "id": 1062,
+    "name": "Halima Yahya",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 94,
+    "subjects": {
+      "Mathematics": {
+        "score": 43,
+        "grade": "D"
+      },
+      "English": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 59,
+        "grade": "C"
+      },
+      "History": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 79,
+        "grade": "A"
+      }
+    },
+    "average": 65.6,
+    "division": "II"
+  },
+  {
+    "id": 1063,
+    "name": "Moses Lema",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 94,
+    "subjects": {
+      "Mathematics": {
+        "score": 83,
+        "grade": "A"
+      },
+      "English": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 60,
+        "grade": "B"
+      },
+      "History": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 67,
+        "grade": "B"
+      }
+    },
+    "average": 67.3,
+    "division": "II"
+  },
+  {
+    "id": 1064,
+    "name": "Fatma Mollel",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 92,
+    "subjects": {
+      "Mathematics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "English": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 37,
+        "grade": "F"
+      },
+      "Biology": {
+        "score": 42,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "History": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 60,
+        "grade": "B"
+      }
+    },
+    "average": 54.0,
+    "division": "III"
+  },
+  {
+    "id": 1065,
+    "name": "Emmanuel Komba",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 76,
+        "grade": "A"
+      },
+      "English": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "History": {
+        "score": 98,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 91,
+        "grade": "A"
+      }
+    },
+    "average": 69.0,
+    "division": "II"
+  },
+  {
+    "id": 1066,
+    "name": "Diana Nyerere",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 84,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 51,
+        "grade": "C"
+      },
+      "History": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 77,
+        "grade": "A"
+      }
+    },
+    "average": 67.7,
+    "division": "II"
+  },
+  {
+    "id": 1067,
+    "name": "John Hassan",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 93,
+    "subjects": {
+      "Mathematics": {
+        "score": 98,
+        "grade": "A"
+      },
+      "English": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 85,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 50,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "History": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 57,
+        "grade": "C"
+      }
+    },
+    "average": 66.0,
+    "division": "II"
+  },
+  {
+    "id": 1068,
+    "name": "Victor Ali",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 51,
+        "grade": "C"
+      },
+      "English": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 85,
+        "grade": "A"
+      },
+      "History": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 75,
+        "grade": "A"
+      }
+    },
+    "average": 64.7,
+    "division": "III"
+  },
+  {
+    "id": 1069,
+    "name": "Salma Mushi",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 78,
+        "grade": "A"
+      },
+      "English": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "History": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 72,
+        "grade": "B"
+      }
+    },
+    "average": 69.4,
+    "division": "II"
+  },
+  {
+    "id": 1070,
+    "name": "Salma Peter",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 62,
+        "grade": "B"
+      },
+      "English": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 36,
+        "grade": "F"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 73,
+        "grade": "B"
+      }
+    },
+    "average": 58.1,
+    "division": "III"
+  },
+  {
+    "id": 1071,
+    "name": "Michael Lucas",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 95,
+    "subjects": {
+      "Mathematics": {
+        "score": 46,
+        "grade": "D"
+      },
+      "English": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 37,
+        "grade": "F"
+      },
+      "History": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 59,
+        "grade": "C"
+      }
+    },
+    "average": 61.7,
+    "division": "III"
+  },
+  {
+    "id": 1072,
+    "name": "Joyce Michael",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "English": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 49,
+        "grade": "D"
+      },
+      "Physics": {
+        "score": 53,
+        "grade": "C"
+      },
+      "History": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 77,
+        "grade": "A"
+      }
+    },
+    "average": 64.2,
+    "division": "III"
+  },
+  {
+    "id": 1073,
+    "name": "Sophia Mwakalinga",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 87,
+    "subjects": {
+      "Mathematics": {
+        "score": 78,
+        "grade": "A"
+      },
+      "English": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 43,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "History": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 66,
+        "grade": "B"
+      }
+    },
+    "average": 66.3,
+    "division": "II"
+  },
+  {
+    "id": 1074,
+    "name": "Mariam Ali",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "English": {
+        "score": 81,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 35,
+        "grade": "F"
+      },
+      "History": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 60,
+        "grade": "B"
+      }
+    },
+    "average": 65.7,
+    "division": "II"
+  },
+  {
+    "id": 1075,
+    "name": "Amina Juma",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 86,
+    "subjects": {
+      "Mathematics": {
+        "score": 74,
+        "grade": "B"
+      },
+      "English": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 72,
+        "grade": "B"
+      }
+    },
+    "average": 71.2,
+    "division": "II"
+  },
+  {
+    "id": 1076,
+    "name": "Lucy Komba",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 83,
+    "subjects": {
+      "Mathematics": {
+        "score": 72,
+        "grade": "B"
+      },
+      "English": {
+        "score": 98,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 75,
+        "grade": "A"
+      }
+    },
+    "average": 71.7,
+    "division": "II"
+  },
+  {
+    "id": 1077,
+    "name": "Beatrice Jongo",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 86,
+    "subjects": {
+      "Mathematics": {
+        "score": 68,
+        "grade": "B"
+      },
+      "English": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 83,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 47,
+        "grade": "D"
+      },
+      "History": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 50,
+        "grade": "C"
+      }
+    },
+    "average": 64.9,
+    "division": "III"
+  },
+  {
+    "id": 1078,
+    "name": "Elisha Mgaya",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 83,
+    "subjects": {
+      "Mathematics": {
+        "score": 65,
+        "grade": "B"
+      },
+      "English": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 36,
+        "grade": "F"
+      },
+      "History": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 59,
+        "grade": "C"
+      }
+    },
+    "average": 65.9,
+    "division": "II"
+  },
+  {
+    "id": 1079,
+    "name": "Prisca Lema",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 53,
+        "grade": "C"
+      },
+      "English": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 85,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "History": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 69,
+        "grade": "B"
+      }
+    },
+    "average": 66.8,
+    "division": "II"
+  },
+  {
+    "id": 1080,
+    "name": "Amani Lucas",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 99,
+    "subjects": {
+      "Mathematics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "English": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "History": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 75,
+        "grade": "A"
+      }
+    },
+    "average": 69.2,
+    "division": "II"
+  },
+  {
+    "id": 1081,
+    "name": "Amani Mgaya",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 84,
+    "subjects": {
+      "Mathematics": {
+        "score": 49,
+        "grade": "D"
+      },
+      "English": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "History": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 59,
+        "grade": "C"
+      }
+    },
+    "average": 62.1,
+    "division": "III"
+  },
+  {
+    "id": 1082,
+    "name": "Halima Lema",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 88,
+    "subjects": {
+      "Mathematics": {
+        "score": 61,
+        "grade": "B"
+      },
+      "English": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 52,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 70,
+        "grade": "B"
+      },
+      "History": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 84,
+        "grade": "A"
+      }
+    },
+    "average": 70.0,
+    "division": "II"
+  },
+  {
+    "id": 1083,
+    "name": "Moses Mgaya",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 100,
+    "subjects": {
+      "Mathematics": {
+        "score": 95,
+        "grade": "A"
+      },
+      "English": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 81,
+        "grade": "A"
+      },
+      "History": {
+        "score": 85,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 92,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 79,
+        "grade": "A"
+      }
+    },
+    "average": 78.4,
+    "division": "II"
+  },
+  {
+    "id": 1084,
+    "name": "Erick Komba",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 78,
+        "grade": "A"
+      },
+      "English": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 44,
+        "grade": "D"
+      },
+      "History": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 61,
+        "grade": "B"
+      }
+    },
+    "average": 66.7,
+    "division": "II"
+  },
+  {
+    "id": 1085,
+    "name": "Lucy Hassan",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 96,
+    "subjects": {
+      "Mathematics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "English": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 46,
+        "grade": "D"
+      },
+      "History": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 64,
+        "grade": "B"
+      }
+    },
+    "average": 61.7,
+    "division": "III"
+  },
+  {
+    "id": 1086,
+    "name": "Victor Charles",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 83,
+    "subjects": {
+      "Mathematics": {
+        "score": 83,
+        "grade": "A"
+      },
+      "English": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 70,
+        "grade": "B"
+      },
+      "History": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 68,
+        "grade": "B"
+      }
+    },
+    "average": 67.7,
+    "division": "II"
+  },
+  {
+    "id": 1087,
+    "name": "Anitha Lema",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 95,
+    "subjects": {
+      "Mathematics": {
+        "score": 47,
+        "grade": "D"
+      },
+      "English": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Biology": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "History": {
+        "score": 49,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 57,
+        "grade": "C"
+      }
+    },
+    "average": 60.9,
+    "division": "III"
+  },
+  {
+    "id": 1088,
+    "name": "Elisha Jongo",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 85,
+    "subjects": {
+      "Mathematics": {
+        "score": 80,
+        "grade": "A"
+      },
+      "English": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 63,
+        "grade": "B"
+      },
+      "History": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 54,
+        "grade": "C"
+      }
+    },
+    "average": 64.8,
+    "division": "III"
+  },
+  {
+    "id": 1089,
+    "name": "George Peter",
+    "gender": "Female",
+    "class": "Form 3",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 75,
+        "grade": "A"
+      },
+      "English": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 39,
+        "grade": "F"
+      },
+      "History": {
+        "score": 43,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 87,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 54,
+        "grade": "C"
+      }
+    },
+    "average": 63.4,
+    "division": "III"
+  },
+  {
+    "id": 1090,
+    "name": "Anitha Jongo",
+    "gender": "Male",
+    "class": "Form 3",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "English": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 41,
+        "grade": "D"
+      },
+      "Geography": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 71,
+        "grade": "B"
+      }
+    },
+    "average": 63.8,
+    "division": "III"
+  },
+  {
+    "id": 1091,
+    "name": "Amani Malisa",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "English": {
+        "score": 49,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 57,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 69,
+        "grade": "B"
+      },
+      "History": {
+        "score": 86,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 64,
+        "grade": "B"
+      }
+    },
+    "average": 64.3,
+    "division": "III"
+  },
+  {
+    "id": 1092,
+    "name": "Amina Komba",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 90,
+    "subjects": {
+      "Mathematics": {
+        "score": 65,
+        "grade": "B"
+      },
+      "English": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 45,
+        "grade": "D"
+      },
+      "Chemistry": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "History": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 61,
+        "grade": "B"
+      }
+    },
+    "average": 60.7,
+    "division": "III"
+  },
+  {
+    "id": 1093,
+    "name": "Sophia Mollel",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 84,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 83,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "History": {
+        "score": 96,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 83,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 76,
+        "grade": "A"
+      }
+    },
+    "average": 71.2,
+    "division": "II"
+  },
+  {
+    "id": 1094,
+    "name": "Asha Mgaya",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 94,
+    "subjects": {
+      "Mathematics": {
+        "score": 59,
+        "grade": "C"
+      },
+      "English": {
+        "score": 90,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 92,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "History": {
+        "score": 37,
+        "grade": "F"
+      },
+      "Geography": {
+        "score": 48,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 59,
+        "grade": "C"
+      }
+    },
+    "average": 64.9,
+    "division": "III"
+  },
+  {
+    "id": 1095,
+    "name": "Baraka Karim",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 87,
+    "subjects": {
+      "Mathematics": {
+        "score": 59,
+        "grade": "C"
+      },
+      "English": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 96,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 92,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 76,
+        "grade": "A"
+      },
+      "History": {
+        "score": 90,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 98,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 54,
+        "grade": "C"
+      }
+    },
+    "average": 78.6,
+    "division": "II"
+  },
+  {
+    "id": 1096,
+    "name": "Halima Suleiman",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 46,
+        "grade": "D"
+      },
+      "English": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 49,
+        "grade": "D"
+      },
+      "History": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 54,
+        "grade": "C"
+      }
+    },
+    "average": 60.1,
+    "division": "III"
+  },
+  {
+    "id": 1097,
+    "name": "Patrick Mushi",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 79,
+    "subjects": {
+      "Mathematics": {
+        "score": 50,
+        "grade": "C"
+      },
+      "English": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 76,
+        "grade": "A"
+      },
+      "History": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 72,
+        "grade": "B"
+      }
+    },
+    "average": 70.0,
+    "division": "II"
+  },
+  {
+    "id": 1098,
+    "name": "Franklin Michael",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "English": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "History": {
+        "score": 89,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 62,
+        "grade": "B"
+      }
+    },
+    "average": 69.1,
+    "division": "II"
+  },
+  {
+    "id": 1099,
+    "name": "Paul Joseph",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 80,
+    "subjects": {
+      "Mathematics": {
+        "score": 68,
+        "grade": "B"
+      },
+      "English": {
+        "score": 43,
+        "grade": "D"
+      },
+      "Kiswahili": {
+        "score": 74,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 68,
+        "grade": "B"
+      },
+      "History": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 53,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 53,
+        "grade": "C"
+      }
+    },
+    "average": 61.9,
+    "division": "III"
+  },
+  {
+    "id": 1100,
+    "name": "David Mollel",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 83,
+    "subjects": {
+      "Mathematics": {
+        "score": 48,
+        "grade": "D"
+      },
+      "English": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 98,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 54,
+        "grade": "C"
+      },
+      "History": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 83,
+        "grade": "A"
+      }
+    },
+    "average": 69.3,
+    "division": "II"
+  },
+  {
+    "id": 1101,
+    "name": "Kelvin Maro",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 94,
+    "subjects": {
+      "Mathematics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "English": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "History": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 72,
+        "grade": "B"
+      }
+    },
+    "average": 66.3,
+    "division": "II"
+  },
+  {
+    "id": 1102,
+    "name": "Dennis Simon",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 86,
+    "subjects": {
+      "Mathematics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "English": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Kiswahili": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 85,
+        "grade": "A"
+      },
+      "History": {
+        "score": 95,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 52,
+        "grade": "C"
+      }
+    },
+    "average": 67.8,
+    "division": "II"
+  },
+  {
+    "id": 1103,
+    "name": "Janeth Mollel",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 88,
+    "subjects": {
+      "Mathematics": {
+        "score": 74,
+        "grade": "B"
+      },
+      "English": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 52,
+        "grade": "C"
+      },
+      "History": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 56,
+        "grade": "C"
+      }
+    },
+    "average": 65.0,
+    "division": "II"
+  },
+  {
+    "id": 1104,
+    "name": "Patrick Mrema",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 49,
+        "grade": "D"
+      },
+      "English": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 65,
+        "grade": "B"
+      },
+      "History": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 80,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 98,
+        "grade": "A"
+      }
+    },
+    "average": 76.1,
+    "division": "II"
+  },
+  {
+    "id": 1105,
+    "name": "Prisca Ali",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 92,
+    "subjects": {
+      "Mathematics": {
+        "score": 56,
+        "grade": "C"
+      },
+      "English": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 65,
+        "grade": "B"
+      },
+      "History": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 38,
+        "grade": "F"
+      },
+      "Civics": {
+        "score": 61,
+        "grade": "B"
+      }
+    },
+    "average": 64.8,
+    "division": "III"
+  },
+  {
+    "id": 1106,
+    "name": "Anitha Charles",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 80,
+    "subjects": {
+      "Mathematics": {
+        "score": 77,
+        "grade": "A"
+      },
+      "English": {
+        "score": 92,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 55,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 86,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 74,
+        "grade": "B"
+      },
+      "History": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 66,
+        "grade": "B"
+      }
+    },
+    "average": 74.0,
+    "division": "II"
+  },
+  {
+    "id": 1107,
+    "name": "Abdul Malisa",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 87,
+    "subjects": {
+      "Mathematics": {
+        "score": 76,
+        "grade": "A"
+      },
+      "English": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 87,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 82,
+        "grade": "A"
+      },
+      "History": {
+        "score": 89,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 70,
+        "grade": "B"
+      }
+    },
+    "average": 74.6,
+    "division": "II"
+  },
+  {
+    "id": 1108,
+    "name": "Fatma Msuya",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 88,
+    "subjects": {
+      "Mathematics": {
+        "score": 64,
+        "grade": "B"
+      },
+      "English": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 46,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 91,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 85,
+        "grade": "A"
+      },
+      "History": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 47,
+        "grade": "D"
+      },
+      "Civics": {
+        "score": 81,
+        "grade": "A"
+      }
+    },
+    "average": 71.1,
+    "division": "II"
+  },
+  {
+    "id": 1109,
+    "name": "Moses Lema",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 86,
+    "subjects": {
+      "Mathematics": {
+        "score": 51,
+        "grade": "C"
+      },
+      "English": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 97,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 69,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 68,
+        "grade": "B"
+      },
+      "History": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 72,
+        "grade": "B"
+      }
+    },
+    "average": 69.8,
+    "division": "II"
+  },
+  {
+    "id": 1110,
+    "name": "Kelvin Jongo",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 84,
+    "subjects": {
+      "Mathematics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "English": {
+        "score": 81,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 63,
+        "grade": "B"
+      },
+      "History": {
+        "score": 71,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 50,
+        "grade": "C"
+      }
+    },
+    "average": 64.2,
+    "division": "III"
+  },
+  {
+    "id": 1111,
+    "name": "Mariam Nyerere",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 97,
+    "subjects": {
+      "Mathematics": {
+        "score": 46,
+        "grade": "D"
+      },
+      "English": {
+        "score": 81,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 79,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 98,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "History": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 76,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 41,
+        "grade": "D"
+      }
+    },
+    "average": 68.6,
+    "division": "II"
+  },
+  {
+    "id": 1112,
+    "name": "Ibrahim Suleiman",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 62,
+        "grade": "B"
+      },
+      "English": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 58,
+        "grade": "C"
+      },
+      "History": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 78,
+        "grade": "A"
+      }
+    },
+    "average": 68.6,
+    "division": "II"
+  },
+  {
+    "id": 1113,
+    "name": "Brian Charles",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 92,
+    "subjects": {
+      "Mathematics": {
+        "score": 98,
+        "grade": "A"
+      },
+      "English": {
+        "score": 73,
+        "grade": "B"
+      },
+      "Kiswahili": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 73,
+        "grade": "B"
+      },
+      "History": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Geography": {
+        "score": 65,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 68,
+        "grade": "B"
+      }
+    },
+    "average": 72.3,
+    "division": "II"
+  },
+  {
+    "id": 1114,
+    "name": "Erick Yahya",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 86,
+    "subjects": {
+      "Mathematics": {
+        "score": 71,
+        "grade": "B"
+      },
+      "English": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 81,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 72,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 67,
+        "grade": "B"
+      },
+      "History": {
+        "score": 59,
+        "grade": "C"
+      },
+      "Geography": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 62,
+        "grade": "B"
+      }
+    },
+    "average": 69.4,
+    "division": "II"
+  },
+  {
+    "id": 1115,
+    "name": "Patrick Simon",
+    "gender": "Female",
+    "class": "Form 4",
+    "attendance": 91,
+    "subjects": {
+      "Mathematics": {
+        "score": 57,
+        "grade": "C"
+      },
+      "English": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 78,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 62,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Physics": {
+        "score": 61,
+        "grade": "B"
+      },
+      "History": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 84,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 79,
+        "grade": "A"
+      }
+    },
+    "average": 70.7,
+    "division": "II"
+  },
+  {
+    "id": 1116,
+    "name": "Beatrice Msuya",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 83,
+    "subjects": {
+      "Mathematics": {
+        "score": 62,
+        "grade": "B"
+      },
+      "English": {
+        "score": 91,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 70,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 51,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 62,
+        "grade": "B"
+      },
+      "History": {
+        "score": 39,
+        "grade": "F"
+      },
+      "Geography": {
+        "score": 64,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 74,
+        "grade": "B"
+      }
+    },
+    "average": 64.8,
+    "division": "III"
+  },
+  {
+    "id": 1117,
+    "name": "Amina Michael",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 99,
+    "subjects": {
+      "Mathematics": {
+        "score": 59,
+        "grade": "C"
+      },
+      "English": {
+        "score": 83,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 49,
+        "grade": "D"
+      },
+      "Biology": {
+        "score": 54,
+        "grade": "C"
+      },
+      "Chemistry": {
+        "score": 58,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 51,
+        "grade": "C"
+      },
+      "History": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 89,
+        "grade": "A"
+      }
+    },
+    "average": 66.4,
+    "division": "II"
+  },
+  {
+    "id": 1118,
+    "name": "Lucy Simon",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 35,
+        "grade": "F"
+      },
+      "English": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 63,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 85,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 85,
+        "grade": "A"
+      },
+      "History": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 77,
+        "grade": "A"
+      },
+      "Civics": {
+        "score": 52,
+        "grade": "C"
+      }
+    },
+    "average": 69.6,
+    "division": "II"
+  },
+  {
+    "id": 1119,
+    "name": "Elibariki Komba",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 89,
+    "subjects": {
+      "Mathematics": {
+        "score": 70,
+        "grade": "B"
+      },
+      "English": {
+        "score": 33,
+        "grade": "F"
+      },
+      "Kiswahili": {
+        "score": 66,
+        "grade": "B"
+      },
+      "Biology": {
+        "score": 88,
+        "grade": "A"
+      },
+      "Chemistry": {
+        "score": 50,
+        "grade": "C"
+      },
+      "Physics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "History": {
+        "score": 67,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 61,
+        "grade": "B"
+      },
+      "Civics": {
+        "score": 72,
+        "grade": "B"
+      }
+    },
+    "average": 63.7,
+    "division": "III"
+  },
+  {
+    "id": 1120,
+    "name": "Amina Jongo",
+    "gender": "Male",
+    "class": "Form 4",
+    "attendance": 87,
+    "subjects": {
+      "Mathematics": {
+        "score": 73,
+        "grade": "B"
+      },
+      "English": {
+        "score": 75,
+        "grade": "A"
+      },
+      "Kiswahili": {
+        "score": 86,
+        "grade": "A"
+      },
+      "Biology": {
+        "score": 60,
+        "grade": "B"
+      },
+      "Chemistry": {
+        "score": 82,
+        "grade": "A"
+      },
+      "Physics": {
+        "score": 66,
+        "grade": "B"
+      },
+      "History": {
+        "score": 68,
+        "grade": "B"
+      },
+      "Geography": {
+        "score": 56,
+        "grade": "C"
+      },
+      "Civics": {
+        "score": 52,
+        "grade": "C"
+      }
+    },
+    "average": 68.7,
+    "division": "II"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 2001,
+    "name": "John Williams",
+    "gender": "Male",
+    "subject": "Mathematics",
+    "class": "Form 4",
+    "experience": 12,
+    "qualification": "B.Ed Mathematics",
+    "email": "john.williams@elimucore.ac.tz"
+  },
+  {
+    "id": 2002,
+    "name": "Sarah Johnson",
+    "gender": "Female",
+    "subject": "English",
+    "class": "Form 3",
+    "experience": 9,
+    "qualification": "B.A English Education",
+    "email": "sarah.johnson@elimucore.ac.tz"
+  },
+  {
+    "id": 2003,
+    "name": "Michael Brown",
+    "gender": "Male",
+    "subject": "Physics",
+    "class": "Form 2",
+    "experience": 11,
+    "qualification": "B.Sc Physics Education",
+    "email": "michael.brown@elimucore.ac.tz"
+  },
+  {
+    "id": 2004,
+    "name": "Amina Hassan",
+    "gender": "Female",
+    "subject": "Kiswahili",
+    "class": "Form 1",
+    "experience": 8,
+    "qualification": "B.Ed Kiswahili",
+    "email": "amina.hassan@elimucore.ac.tz"
+  },
+  {
+    "id": 2005,
+    "name": "Emmanuel Mushi",
+    "gender": "Male",
+    "subject": "Chemistry",
+    "class": "Form 4",
+    "experience": 14,
+    "qualification": "B.Sc Chemistry Education",
+    "email": "emmanuel.mushi@elimucore.ac.tz"
+  },
+  {
+    "id": 2006,
+    "name": "Neema Komba",
+    "gender": "Female",
+    "subject": "Biology",
+    "class": "Form 3",
+    "experience": 7,
+    "qualification": "B.Sc Biology Education",
+    "email": "neema.komba@elimucore.ac.tz"
+  },
+  {
+    "id": 2007,
+    "name": "Joseph Mwita",
+    "gender": "Male",
+    "subject": "History",
+    "class": "Form 2",
+    "experience": 10,
+    "qualification": "B.Ed History",
+    "email": "joseph.mwita@elimucore.ac.tz"
+  },
+  {
+    "id": 2008,
+    "name": "Rehema Said",
+    "gender": "Female",
+    "subject": "Geography",
+    "class": "Form 1",
+    "experience": 6,
+    "qualification": "B.Ed Geography",
+    "email": "rehema.said@elimucore.ac.tz"
+  },
+  {
+    "id": 2009,
+    "name": "Daniel Nyerere",
+    "gender": "Male",
+    "subject": "Civics",
+    "class": "Form 4",
+    "experience": 13,
+    "qualification": "B.A Political Science Education",
+    "email": "daniel.nyerere@elimucore.ac.tz"
+  },
+  {
+    "id": 2010,
+    "name": "Mary Mrema",
+    "gender": "Female",
+    "subject": "Mathematics",
+    "class": "Form 3",
+    "experience": 5,
+    "qualification": "B.Ed Mathematics",
+    "email": "mary.mrema@elimucore.ac.tz"
+  },
+  {
+    "id": 2011,
+    "name": "Patrick Lema",
+    "gender": "Male",
+    "subject": "English",
+    "class": "Form 2",
+    "experience": 15,
+    "qualification": "M.Ed Language Education",
+    "email": "patrick.lema@elimucore.ac.tz"
+  },
+  {
+    "id": 2012,
+    "name": "Grace Malisa",
+    "gender": "Female",
+    "subject": "Physics",
+    "class": "Form 1",
+    "experience": 4,
+    "qualification": "B.Sc Physics Education",
+    "email": "grace.malisa@elimucore.ac.tz"
+  },
+  {
+    "id": 2013,
+    "name": "Abdul Karim",
+    "gender": "Male",
+    "subject": "Chemistry",
+    "class": "Form 3",
+    "experience": 9,
+    "qualification": "B.Sc Chemistry",
+    "email": "abdul.karim@elimucore.ac.tz"
+  },
+  {
+    "id": 2014,
+    "name": "Anitha Charles",
+    "gender": "Female",
+    "subject": "Biology",
+    "class": "Form 2",
+    "experience": 8,
+    "qualification": "B.Ed Science",
+    "email": "anitha.charles@elimucore.ac.tz"
+  },
+  {
+    "id": 2015,
+    "name": "Moses Mgaya",
+    "gender": "Male",
+    "subject": "Kiswahili",
+    "class": "Form 4",
+    "experience": 16,
+    "qualification": "M.A Kiswahili",
+    "email": "moses.mgaya@elimucore.ac.tz"
+  },
+  {
+    "id": 2016,
+    "name": "Fatma Yusuf",
+    "gender": "Female",
+    "subject": "History",
+    "class": "Form 1",
+    "experience": 6,
+    "qualification": "B.Ed History",
+    "email": "fatma.yusuf@elimucore.ac.tz"
+  },
+  {
+    "id": 2017,
+    "name": "David Peter",
+    "gender": "Male",
+    "subject": "Geography",
+    "class": "Form 3",
+    "experience": 11,
+    "qualification": "B.Ed Geography",
+    "email": "david.peter@elimucore.ac.tz"
+  },
+  {
+    "id": 2018,
+    "name": "Rose Shayo",
+    "gender": "Female",
+    "subject": "Civics",
+    "class": "Form 2",
+    "experience": 7,
+    "qualification": "B.Ed Civics",
+    "email": "rose.shayo@elimucore.ac.tz"
+  },
+  {
+    "id": 2019,
+    "name": "Franklin Edward",
+    "gender": "Male",
+    "subject": "Mathematics",
+    "class": "Form 1",
+    "experience": 5,
+    "qualification": "B.Ed Mathematics",
+    "email": "franklin.edward@elimucore.ac.tz"
+  },
+  {
+    "id": 2020,
+    "name": "Upendo Elias",
+    "gender": "Female",
+    "subject": "English",
+    "class": "Form 4",
+    "experience": 12,
+    "qualification": "B.A English",
+    "email": "upendo.elias@elimucore.ac.tz"
+  },
+  {
+    "id": 2021,
+    "name": "Baraka Karim",
+    "gender": "Male",
+    "subject": "Physics",
+    "class": "Form 3",
+    "experience": 10,
+    "qualification": "B.Sc Physics",
+    "email": "baraka.karim@elimucore.ac.tz"
+  },
+  {
+    "id": 2022,
+    "name": "Halima Omari",
+    "gender": "Female",
+    "subject": "Chemistry",
+    "class": "Form 2",
+    "experience": 9,
+    "qualification": "B.Ed Chemistry",
+    "email": "halima.omari@elimucore.ac.tz"
+  },
+  {
+    "id": 2023,
+    "name": "Peter Kimaro",
+    "gender": "Male",
+    "subject": "Biology",
+    "class": "Form 1",
+    "experience": 13,
+    "qualification": "B.Sc Biology",
+    "email": "peter.kimaro@elimucore.ac.tz"
+  },
+  {
+    "id": 2024,
+    "name": "Lucy Massawe",
+    "gender": "Female",
+    "subject": "Kiswahili",
+    "class": "Form 3",
+    "experience": 6,
+    "qualification": "B.Ed Kiswahili",
+    "email": "lucy.massawe@elimucore.ac.tz"
+  },
+  {
+    "id": 2025,
+    "name": "George Bwire",
+    "gender": "Male",
+    "subject": "History",
+    "class": "Form 4",
+    "experience": 17,
+    "qualification": "M.Ed History",
+    "email": "george.bwire@elimucore.ac.tz"
+  },
+  {
+    "id": 2026,
+    "name": "Agnes John",
+    "gender": "Female",
+    "subject": "Geography",
+    "class": "Form 2",
+    "experience": 8,
+    "qualification": "B.Ed Geography",
+    "email": "agnes.john@elimucore.ac.tz"
+  },
+  {
+    "id": 2027,
+    "name": "Ibrahim Salum",
+    "gender": "Male",
+    "subject": "Civics",
+    "class": "Form 1",
+    "experience": 4,
+    "qualification": "B.A Education",
+    "email": "ibrahim.salum@elimucore.ac.tz"
+  },
+  {
+    "id": 2028,
+    "name": "Sophia Paulo",
+    "gender": "Female",
+    "subject": "Mathematics",
+    "class": "Form 2",
+    "experience": 11,
+    "qualification": "B.Ed Mathematics",
+    "email": "sophia.paulo@elimucore.ac.tz"
+  },
+  {
+    "id": 2029,
+    "name": "Kelvin Nyoni",
+    "gender": "Male",
+    "subject": "English",
+    "class": "Form 1",
+    "experience": 7,
+    "qualification": "B.A English Education",
+    "email": "kelvin.nyoni@elimucore.ac.tz"
+  },
+  {
+    "id": 2030,
+    "name": "Janeth Sanga",
+    "gender": "Female",
+    "subject": "Biology",
+    "class": "Form 4",
+    "experience": 10,
+    "qualification": "B.Ed Biology",
+    "email": "janeth.sanga@elimucore.ac.tz"
+  }
+]
