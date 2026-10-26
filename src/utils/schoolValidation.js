@@ -1,6 +1,17 @@
 export const CLASS_OPTIONS = ['Form 1', 'Form 2', 'Form 3', 'Form 4']
 export const GENDER_OPTIONS = ['Female', 'Male']
 export const DIVISION_OPTIONS = ['I', 'II', 'III', 'IV', '0']
+export const SUBJECT_OPTIONS = [
+	'Mathematics',
+	'English',
+	'Kiswahili',
+	'Biology',
+	'Chemistry',
+	'Physics',
+	'History',
+	'Geography',
+	'Civics',
+]
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
@@ -27,6 +38,7 @@ export function validateTeacher(teacher) {
 	if (!teacher.name?.trim()) return 'Please enter the teacher name.'
 	if (!GENDER_OPTIONS.includes(teacher.gender)) return 'Please choose a valid gender.'
 	if (!teacher.subject?.trim()) return 'Please enter the teacher subject.'
+	if (!SUBJECT_OPTIONS.includes(teacher.subject)) return 'Please choose a valid subject.'
 	if (!CLASS_OPTIONS.includes(teacher.class)) return 'Please enter the correct class: Form 1, Form 2, Form 3, or Form 4.'
 	if (!Number.isFinite(teacher.experience) || teacher.experience < 0) {
 		return 'Experience must be a number of years, starting from 0.'

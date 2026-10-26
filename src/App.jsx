@@ -1,59 +1,33 @@
 import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 import Navbar from './components/Layout/Navbar'
 import Sidebar from './components/Layout/Sidebar'
 import Modal from './components/UI/Modal'
+import Toasts from './components/UI/Toasts'
 import StudentForm from './components/Forms/StudentForm'
 import TeacherForm from './components/Forms/TeacherForm'
-import Dashboard from './pages/Dashboard'
-import Teachers from './pages/Teachers'
-import Students from './pages/Students'
-import Grades from './pages/Grades'
-import Attendance from './pages/Attendance'
 import { useSchoolData } from './hooks/useSchoolData'
 import './App.css'
 
 function App() {
-  const [activeTab, setActiveTab] = useState('dashboard')
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const schoolData = useSchoolData()
 
-  const renderPage = () => {
-    switch (activeTab) {
-      case 'dashboard':
-        return <Dashboard schoolData={schoolData} onNavigate={setActiveTab} />
-      case 'teachers':
-        return <Teachers schoolData={schoolData} />
-      case 'students':
-        return <Students schoolData={schoolData} />
-      case 'grades':
-        return <Grades schoolData={schoolData} />
-      case 'attendance':
-        return <Attendance schoolData={schoolData} />
-      default:
-        return <Dashboard schoolData={schoolData} />
-    }
-  }
-
   return (
     <div className="app">
-      <Navbar 
-        activeTab={activeTab} 
+      <Navbar
         onMenuClick={() => setSidebarOpen((s) => !s)}
         onAddStudent={schoolData.openAddStudent}
         onAddTeacher={schoolData.openAddTeacher}
-        onGoHome={() => {
-          setActiveTab('dashboard')
-          setSidebarOpen(false)
-        }}
       />
-      
+
       <div className="main-layout">
-        <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} isOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+        <Sidebar isOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} onReset={schoolData.resetData} />
         {sidebarOpen && <div className="backdrop" onClick={() => setSidebarOpen(false)} />}
-        
+
         <main className="content-area">
           <div className="container">
-            {renderPage()}
+            <Outlet context={schoolData} />
           </div>
         </main>
       </div>
@@ -77,6 +51,8 @@ function App() {
           onCancel={schoolData.closeAddTeacher}
         />
       </Modal>
+
+      <Toasts toasts={schoolData.toasts} onDismiss={schoolData.dismissToast} />
     </div>
   )
 }

@@ -1,3 +1,4 @@
+import { useNavigate, useOutletContext } from 'react-router-dom';
 import Header from '../components/Header';
 import StatsCard from '../components/StatsCard';
 import { FiAward, FiBookOpen, FiTrendingUp, FiUsers } from 'react-icons/fi';
@@ -11,7 +12,9 @@ function averageOf(students, field) {
   return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
-export default function Dashboard({ schoolData, onNavigate }) {
+export default function Dashboard() {
+  const schoolData = useOutletContext();
+  const navigate = useNavigate();
   const students = schoolData?.students ?? [];
   const teachers = schoolData?.teachers ?? [];
   const averageAttendance = averageOf(students, 'attendance');
@@ -46,7 +49,7 @@ export default function Dashboard({ schoolData, onNavigate }) {
           note="Across all students"
           title="Attendance"
           value={`${averageAttendance.toFixed(1)}%`}
-          onClick={() => onNavigate('attendance')}
+          onClick={() => navigate('/attendance')}
         />
         <StatsCard
           icon={<FiAward />}

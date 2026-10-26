@@ -1,21 +1,16 @@
 import { FiMenu, FiUserPlus, FiUserCheck } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
-export default function Navbar({ activeTab, onMenuClick, onAddStudent, onAddTeacher, onGoHome }) {
-	const isDashboard = activeTab === 'dashboard'
-
+export default function Navbar({ onMenuClick, onAddStudent, onAddTeacher }) {
 	return (
 		<nav className="navbar">
-			<div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+			<div className="navbar-left">
 				<button aria-label="Toggle menu" className="btn secondary menu-btn" onClick={onMenuClick}>
 					<FiMenu />
 				</button>
-				{isDashboard ? (
-					<div className="brand">ElimuCore</div>
-				) : (
-					<button type="button" className="brand brand--clickable" onClick={onGoHome}>
-						ElimuCore
-					</button>
-				)}
+				<Link to="/dashboard" className="brand">
+					ElimuCore
+				</Link>
 			</div>
 
 			<div className="nav-actions">

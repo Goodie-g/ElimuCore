@@ -2,6 +2,7 @@ import { useState } from 'react'
 import {
 	CLASS_OPTIONS,
 	GENDER_OPTIONS,
+	SUBJECT_OPTIONS,
 	getFormNumber,
 	validateTeacher,
 } from '../../utils/schoolValidation'
@@ -50,7 +51,11 @@ export default function TeacherForm({ initialValues = {}, isEditing = false, onS
 			</div>
 			<div className="form-field">
 				<label htmlFor="teacher-subject">Subject</label>
-				<input id="teacher-subject" name="subject" defaultValue={values.subject ?? ''} required />
+				<select id="teacher-subject" name="subject" defaultValue={values.subject ?? 'Mathematics'} required>
+					{SUBJECT_OPTIONS.map((subject) => (
+						<option key={subject} value={subject}>{subject}</option>
+					))}
+				</select>
 			</div>
 			<div className="form-field">
 				<label htmlFor="teacher-class">Class</label>

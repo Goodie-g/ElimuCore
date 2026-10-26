@@ -1,6 +1,11 @@
 import { useMemo, useState } from 'react';
+import { useOutletContext } from 'react-router-dom';
 import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
+import GradeForm from '../components/Forms/GradeForm';
+import Modal from '../components/UI/Modal';
+
+const EMPTY_STUDENTS = [];
 
 const SORT_OPTIONS = [
   { value: 'name', label: 'Name' },
@@ -66,13 +71,15 @@ function sortStudents(students, sortBy, selectedSubject) {
   });
 }
 
-export default function Grades({ schoolData }) {
-  const students = useMemo(() => schoolData?.students ?? [], [schoolData?.students]);
+export default function Grades() {
+  const schoolData = useOutletContext();
+  const students = schoolData?.students ?? EMPTY_STUDENTS;
   const [search, setSearch] = useState('');
   const [selectedClass, setSelectedClass] = useState('all');
   const [selectedSubject, setSelectedSubject] = useState('');
   const [sortBy, setSortBy] = useState('average');
   const [selectedStudentId, setSelectedStudentId] = useState(null);
+  const [gradingStudentId, setGradingStudentId] = useState(null);
 
   const subjects = useMemo(() => getSubjectNames(students), [students]);
   const activeSubject = selectedSubject || subjects[0] || '';
@@ -95,7 +102,14 @@ export default function Grades({ schoolData }) {
     return sortStudents(filtered, sortBy, activeSubject);
   }, [activeSubject, search, selectedClass, sortBy, students]);
 
-  const selectedStudent = visibleStudents.find((student) => student.id === selectedStudentId);
+  const selectedStudent = students.find((student) => student.id === selectedStudentId);
+  const gradingStudent = students.find((student) => student.id === gradingStudentId);
+
+  const handleSaveGrades = (studentId, scores) => {
+    const result = schoolData.saveStudentGrades(studentId, scores);
+    if (result?.ok) setGradingStudentId(null);
+    return result;
+  };
 
   return (
     <div>
@@ -124,7 +138,7 @@ export default function Grades({ schoolData }) {
 
       <div className="table-container grades-table-container">
         <div className="table-top grades-toolbar">
-          <SearchBar value={search} onChange={setSearch} />
+          <SearchBar value={search} onChange={setSearch} placeholder="Search students" />
 
           <select value={selectedClass} onChange={(event) => setSelectedClass(event.target.value)}>
             <option value="all">All classes</option>
@@ -171,38 +185,57 @@ export default function Grades({ schoolData }) {
             </thead>
 
             <tbody>
-              {visibleStudents.map((student) => {
-                const subjectResult = student.subjects?.[activeSubject];
-                const isSelected = selectedStudentId === student.id;
+              {visibleStudents.length === 0 ? (
+                <tr>
+                  <td className="table-empty" colSpan={7}>
+                    {students.length
+                      ? 'No students match your filters.'
+                      : 'No students yet. Add one to get started.'}
+                  </td>
+                </tr>
+              ) : (
+                visibleStudents.map((student) => {
+                  const subjectResult = student.subjects?.[activeSubject];
+                  const isSelected = selectedStudentId === student.id;
 
-                return (
-                  <tr key={student.id} className={isSelected ? 'selected-row' : ''}>
-                    <td>{student.name}</td>
-                    <td>{student.class || 'N/A'}</td>
-                    <td>{Number.isFinite(student.attendance) ? `${student.attendance}%` : 'N/A'}</td>
-                    <td>{Number.isFinite(student.average) ? student.average.toFixed(1) : 'N/A'}</td>
-                    <td>{student.division || 'N/A'}</td>
-                    <td>
-                      {subjectResult
-                        ? `${subjectResult.score} (${subjectResult.grade})`
-                        : 'N/A'}
-                    </td>
-                    <td>
-                      <button
-                        className="btn secondary"
-                        onClick={() =>
-                          setSelectedStudentId((current) =>
-                            current === student.id ? null : student.id
-                          )
-                        }
-                        type="button"
-                      >
-                        {isSelected ? 'Hide' : 'View'}
-                      </button>
-                    </td>
-                  </tr>
-                );
-              })}
+                  return (
+                    <tr key={student.id} className={isSelected ? 'selected-row' : ''}>
+                      <td>{student.name}</td>
+                      <td>{student.class || 'N/A'}</td>
+                      <td>{Number.isFinite(student.attendance) ? `${student.attendance}%` : 'N/A'}</td>
+                      <td>{Number.isFinite(student.average) ? student.average.toFixed(1) : 'N/A'}</td>
+                      <td>{student.division || 'N/A'}</td>
+                      <td>
+                        {subjectResult
+                          ? `${subjectResult.score} (${subjectResult.grade})`
+                          : 'N/A'}
+                      </td>
+                      <td>
+                        <div className="table-actions">
+                          <button
+                            className="btn secondary"
+                            onClick={() =>
+                              setSelectedStudentId((current) =>
+                                current === student.id ? null : student.id
+                              )
+                            }
+                            type="button"
+                          >
+                            {isSelected ? 'Hide' : 'View'}
+                          </button>
+                          <button
+                            className="btn secondary"
+                            onClick={() => setGradingStudentId(student.id)}
+                            type="button"
+                          >
+                            Edit
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })
+              )}
             </tbody>
           </table>
         </div>
@@ -233,6 +266,16 @@ export default function Grades({ schoolData }) {
           </div>
         )}
       </div>
+
+      <Modal isOpen={Boolean(gradingStudent)} onClose={() => setGradingStudentId(null)}>
+        <h3 className="modal-title">Edit Grades — {gradingStudent?.name}</h3>
+        <GradeForm
+          key={gradingStudentId}
+          student={gradingStudent}
+          onSubmit={handleSaveGrades}
+          onCancel={() => setGradingStudentId(null)}
+        />
+      </Modal>
     </div>
   );
 }

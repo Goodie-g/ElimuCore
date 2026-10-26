@@ -15,17 +15,35 @@
   align-items: center;
   display: grid;
   gap: 12px;
-  grid-template-columns: minmax(220px, 1fr) minmax(150px, 200px);
+  grid-template-columns: minmax(220px, 420px);
 }
 
-.people-toolbar select {
-  background: #ffffff;
-  border: 1px solid #d9e4e2;
-  border-radius: 8px;
-  color: var(--text);
-  min-height: 42px;
-  padding: 10px 12px;
-  width: 100%;
+.th-sort {
+  align-items: center;
+  background: none;
+  border: 0;
+  color: inherit;
+  display: inline-flex;
+  font: inherit;
+  gap: 4px;
+  letter-spacing: inherit;
+  padding: 0;
+  text-transform: inherit;
+}
+
+.th-sort:hover,
+.th-sort.active {
+  color: #0f766e;
+}
+
+.th-sort svg {
+  flex: 0 0 auto;
+}
+
+.table-empty {
+  color: var(--muted);
+  padding: 36px 16px;
+  text-align: center;
 }
 
 .table-wrapper {
